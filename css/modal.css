@@ -15,8 +15,10 @@
   background-color: white;
   margin: 15% auto;
   padding: 20px;
+
   width: 50%;
   box-shadow: 0 4px 8px 0 rgb(60, 86, 109, 0.2);
+
   
 }
 
@@ -26,6 +28,7 @@
   font-size: 28px;
   font-weight: bold;
   cursor: pointer;
+  
 }
 
 /* Estilos para os botões */
@@ -34,6 +37,7 @@
   margin: 10px;
   background-color: var(--cor-primaria)  !important;
   cursor: pointer;
+  
 }
 
 
@@ -114,10 +118,12 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
+  box-sizing: border-box;
   min-height: 200px;
   position: relative;
   border-radius: 5px;
+
  
 
 }
